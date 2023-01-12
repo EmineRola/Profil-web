@@ -1,5 +1,5 @@
-<h1>Profil-web</h1>
+<h1>proje-web</h1>
 
-Html,css
+HTML,CSS
 
 ![](ekran.gif)
