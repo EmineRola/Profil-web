@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(./resim.jpg);
+    background: url(./İMAGE/resim.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -77,4 +77,78 @@ ul {
 .box li a:hover {
     color: #b9b9b9;
     transform: scale();
+}
+@media only screen and (max-width: 750px){
+    .box {
+        width: 250px;
+        height: 300px;
+        background: #8e7f7f;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color: #fff;
+        font-family: sans-serif;
+        border-radius: 10px;
+    }
+    
+    .box img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        transition: 0.5s;
+        /*üstüne fare geldiğinde
+        çok hızlı değil yavaş hareket edecek*/
+    
+    }
+    
+    .box img:hover {
+    
+        transform: scale(0.9);
+    
+    }
+    
+    .box h1 {
+    
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+    
+    }
+    
+    .box h5 {
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+    
+    .box p {
+        text-align: justify;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .box li {
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+        /* deyince noktalar kalktı ve yanyana geldi*/
+    
+    }
+    
+    .box li a {
+        font-size: 60px;
+        color: white;
+        transition: all ease-in-out 250ms;
+        /*hepsi yavaş giriş çıkış şeklini verdik*/
+    }
+    
+    .box li a:hover {
+        color: #b9b9b9;
+        transform: scale();
+    }
 }
